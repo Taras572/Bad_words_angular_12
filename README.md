@@ -1,0 +1,1 @@
+# Bad_words_angular_12
