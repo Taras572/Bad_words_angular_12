@@ -1,0 +1,28 @@
+.container{
+    width: 700px;
+    height: 380px;
+    margin: 50px auto;
+    background-color: rgb(197, 197, 197);
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+.word{
+    color: red;
+    font-size: 18px;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.btn-warning, .btn-danger{
+    width: 80px;
+}
+.form-control{
+    width: 450px;
+}
+#floatingTextarea2{
+    width: 100%;
+    resize: none;
+    margin: 30px 0;
+}

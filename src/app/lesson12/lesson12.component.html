@@ -1,0 +1,16 @@
+<div class="container">
+    <h3>Bad words:<span class="word" *ngFor="let item of words"> {{ item }}</span></h3>
+    <form>
+        <input [(ngModel)]="word" name="word" class="form-control"  type="text" placeholder="word here..." aria-label="default input example">
+        <button (click)="Add()" type="button" class="btn btn-warning">Add</button>
+        <button (click)="Reset()" type="button" class="btn btn-danger">Reset</button>
+    </form>
+    <div class="form-floating">
+        <textarea class="form-control" [(ngModel)]="text" name="text" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">text here...</label>
+    </div>
+    <div class="d-grid gap-2">
+        <button (click)="Confirm()" type="button" class="btn btn-success" >Confirm</button>
+    </div>
+</div>
+
